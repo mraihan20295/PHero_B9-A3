@@ -32,10 +32,12 @@
 
 <body>
     <header class="section-wrapper">
+        <!-- Navigation -->
         <nav class="navbar bg-base-100 max-[375px]:block ">
             <div class="navbar-start max-[375px]:w-full max-[375px]:justify-between ">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button"
+                        class="btn bg-transparent border-0 shadow-none hover:bg-transparent lg:hidden px-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -83,7 +85,44 @@
             </div>
         </nav>
 
+        <!-- Hero -->
 
+        <section class="relative">
+            <div class="carousel w-full mt-12  bg-bottom">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/hero.png" class="w-full object-cover" />
+                    <div class="absolute flex gap-x-4 left-10 bottom-7">
+                        <a href="#slide3" class="btn btn-neutral btn-circle ">❮</a>
+                        <a href="#slide2" class="btn btn-neutral btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/hero.png" class="w-full" />
+                    <div class="absolute flex gap-x-4 left-10 bottom-7">
+                        <a href="#slide1" class="btn btn-neutral btn-circle ">❮</a>
+                        <a href="#slide3" class="btn btn-neutral btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/hero.png" class="w-full" />
+                    <div class="absolute flex gap-x-4 left-10 bottom-7">
+                        <a href="#slide2" class="btn btn-neutral btn-circle ">❮</a>
+                        <a href="#slide1" class="btn btn-neutral btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-[#131318] p-8 rounded-2xl right-8 bottom-8 w-[48%] absolute max-md:static max-md:w-full max-md:mt-4 md:max-lg:opacity-80">
+                <h1 class="text-white font-extrabold text-2xl max-sm:text-[1.13rem] max-sm:leading-6">Meet all the
+                    heroes from the field
+                </h1>
+                <p class="text-[rgba(255,255,255,0.6)] font-medium mt-4 max-sm:mt-2 max-sm:text-[0.88rem]">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.
+                </p>
+            </div>
+        </section>
 
     </header>
     <main></main>
