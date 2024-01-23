@@ -7,27 +7,9 @@
     <title>B9-A3 | Hockey's Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root {
-            --clr-accent: #FF4240;
-            /* --color-heading: #363958; */
-        }
-
-        *,
-        *::before,
-        *::after {
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .section-wrapper {
-            width: min(90%, 1140px);
-            margin-inline: auto;
-        }
-    </style>
 </head>
 
 <body>
@@ -91,23 +73,23 @@
             <div class="carousel w-full mt-12  bg-bottom">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/hero.png" class="w-full object-cover" />
-                    <div class="absolute flex gap-x-4 left-10 bottom-7">
-                        <a href="#slide3" class="btn btn-neutral btn-circle ">❮</a>
-                        <a href="#slide2" class="btn btn-neutral btn-circle">❯</a>
+                    <div class="absolute flex md:gap-x-4 left-7 bottom-[7%] max-md:right-7 justify-center ">
+                        <a href="#slide3" class="btn btn-neutral btn-circle max-md:scale-75">❮</a>
+                        <a href="#slide2" class="btn btn-neutral btn-circle max-md:scale-75">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="images/hero.png" class="w-full" />
-                    <div class="absolute flex gap-x-4 left-10 bottom-7">
-                        <a href="#slide1" class="btn btn-neutral btn-circle ">❮</a>
-                        <a href="#slide3" class="btn btn-neutral btn-circle">❯</a>
+                    <div class="absolute flex md:gap-x-4 left-7 bottom-[7%] max-md:right-7 justify-center ">
+                        <a href="#slide1" class="btn btn-neutral btn-circle max-md:scale-75">❮</a>
+                        <a href="#slide3" class="btn btn-neutral btn-circle max-md:scale-75">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="images/hero.png" class="w-full" />
-                    <div class="absolute flex gap-x-4 left-10 bottom-7">
-                        <a href="#slide2" class="btn btn-neutral btn-circle ">❮</a>
-                        <a href="#slide1" class="btn btn-neutral btn-circle">❯</a>
+                    <div class="absolute flex md:gap-x-4 left-7 bottom-[7%] max-md:right-7 justify-center ">
+                        <a href="#slide2" class="btn btn-neutral btn-circle max-md:scale-75">❮</a>
+                        <a href="#slide1" class="btn btn-neutral btn-circle max-md:scale-75">❯</a>
                     </div>
                 </div>
             </div>
@@ -125,7 +107,105 @@
         </section>
 
     </header>
-    <main></main>
+    <main class="section-wrapper my-24">
+        <!-- Club Facilities -->
+        <section id="club-facilities" class="mb-24">
+            <div class="section-header">
+                <h2 class="font-normal">Professional Hockeys Club</h2>
+                <p>
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin.
+                </p>
+            </div>
+
+            <div class="grid gap-y-6 gap-x-10 lg:grid-cols-4 sm:grid-cols-2">
+
+                <div>
+                    <svg class=" max-h-40 max-w-40 mx-auto" viewBox="0 0 100 100">
+                        <!-- Background circle -->
+                        <circle class="stroke-gray-200" stroke-width="10" cx="50" cy="50" r="40" fill="transparent">
+                        </circle>
+                        <!-- Progress circle -->
+                        <circle class="progress-circle [--progress-rate:87] stroke-[#FF4240] " stroke-width="10"
+                            stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"></circle>
+                        <!-- Center text -->
+                        <text class="font-extrabold " x="50" y="50" text-anchor="middle" alignment-baseline="middle">
+                            87%
+                        </text>
+                    </svg>
+                    <div class="text-center max-w-64 mx-auto">
+                        <h3 class="font-semibold text-xl mt-6 leading-none mb-4">Prayer Facility</h3>
+                        <p>
+                            Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <svg class=" max-h-40 max-w-40 mx-auto" viewBox="0 0 100 100">
+                        <!-- Background circle -->
+                        <circle class="stroke-gray-200" stroke-width="10" cx="50" cy="50" r="40" fill="transparent">
+                        </circle>
+                        <!-- Progress circle -->
+                        <circle class="progress-circle [--progress-rate:95] stroke-[#49D293] " stroke-width="10"
+                            stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"></circle>
+                        <!-- Center text -->
+                        <text class="font-extrabold " x="50" y="50" text-anchor="middle" alignment-baseline="middle">
+                            95%
+                        </text>
+                    </svg>
+                    <div class="text-center max-w-64 mx-auto">
+                        <h3 class="font-semibold text-xl mt-6 leading-none mb-4">Experienced Coach</h3>
+                        <p>
+                            Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <svg class=" max-h-40 max-w-40 mx-auto" viewBox="0 0 100 100">
+                        <!-- Background circle -->
+                        <circle class="stroke-gray-200" stroke-width="10" cx="50" cy="50" r="40" fill="transparent">
+                        </circle>
+                        <!-- Progress circle -->
+                        <circle class="progress-circle [--progress-rate:90] stroke-[#FFB546] " stroke-width="10"
+                            stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"></circle>
+                        <!-- Center text -->
+                        <text class="font-extrabold " x="50" y="50" text-anchor="middle" alignment-baseline="middle">
+                            90%
+                        </text>
+                    </svg>
+                    <div class="text-center max-w-64 mx-auto">
+                        <h3 class="font-semibold text-xl mt-6 leading-none mb-4">Senior Player</h3>
+                        <p>
+                            Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <svg class=" max-h-40 max-w-40 mx-auto" viewBox="0 0 100 100">
+                        <!-- Background circle -->
+                        <circle class="stroke-gray-200" stroke-width="10" cx="50" cy="50" r="40" fill="transparent">
+                        </circle>
+                        <!-- Progress circle -->
+                        <circle class="progress-circle [--progress-rate:80] stroke-[#4C8DF1] " stroke-width="10"
+                            stroke-linecap="round" cx="50" cy="50" r="40" fill="transparent"></circle>
+                        <!-- Center text -->
+                        <text class="font-extrabold " x="50" y="50" text-anchor="middle"
+                            alignment-baseline="middle">80%</text>
+                    </svg>
+                    <div class="text-center max-w-64 mx-auto">
+                        <h3 class="font-semibold text-xl mt-6 leading-none mb-4">Training Ground</h3>
+                        <p>
+                            Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
 </body>

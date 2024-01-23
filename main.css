@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --clr-accent: #FF4240;
+    /* --color-heading: #363958; */
+}
+
+*,
+*::before,
+*::after {
+    font-family: 'Manrope', sans-serif;
+}
+
+.section-wrapper {
+    width: min(90%, 1140px);
+    margin-inline: auto;
+}
+
+/* Section Header */
+.section-header {
+    text-align: center;
+    border-block: 2px dashed rgba(19, 19, 24, 0.2);
+    padding-block: 2rem;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.section-header p {
+    max-width: 610px;
+    margin-inline: auto;
+    color: rgba(19, 19, 24, 0.6);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 530px) {
+    .section-header h2 {
+        font-size: 1.375rem;
+    }
+
+    .section-header p {
+        font-size: 0.875rem;
+    }
+}
+
+.progress-circle {
+    stroke-dasharray: 240;
+    stroke-dashoffset: calc(240 - (240 * var(--progress-rate) / 100));
+}
