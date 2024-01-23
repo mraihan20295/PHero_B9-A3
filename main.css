@@ -12,7 +12,7 @@
 }
 
 .section-wrapper {
-    width: min(90%, 1140px);
+    width: min(85%, 1140px);
     margin-inline: auto;
 }
 
@@ -53,4 +53,9 @@
 .progress-circle {
     stroke-dasharray: 240;
     stroke-dashoffset: calc(240 - (240 * var(--progress-rate) / 100));
+}
+
+
+#programs .card.image-full::before {
+    opacity: 0.5;
 }
