@@ -15,7 +15,7 @@
 <body>
     <header class="section-wrapper">
         <!-- Navigation -->
-        <nav class="navbar bg-base-100 max-[375px]:block ">
+        <nav class="navbar bg-base-100 max-[375px]:block px-0">
             <div class="navbar-start max-[375px]:w-full max-[375px]:justify-between ">
                 <div class="dropdown">
                     <div tabindex="0" role="button"
@@ -277,8 +277,80 @@
 
             </div>
         </section>
+
+        <!-- Get in Touch -->
+
+        <section id="contact">
+            <div class="section-header">
+                <h2 class="font-normal">Get In Touch</h2>
+                <p>
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin.
+                </p>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer id="footer" class="bg-[#131318]">
+
+        <section class="section-wrapper py-24">
+            <div
+                class="footer text-[1rem] max-lg:grid-flow-row max-lg:grid-cols-2 gap-[2.5rem] max-sm:justify-items-center justify-between  text-white">
+                <aside class="max-sm:col-span-2 max-sm:place-items-center">
+                    <a class="btn text-2xl  font-extrabold gap-x-0 ">
+                        Hockey<span class="text-[--clr-accent]">&rsquo;</span>s
+                    </a>
+                    <p class="max-w-[380px] leading-[1.6] font-medium text-gray-300 mt-3 max-sm:text-center">
+                        Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit
+                        nullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam.
+                    </p>
+                    <!-- <div class="grid grid-flow-col max-[375px]:grid-flow-row gap-4 cursor-pointer">
+                        <a href="#">
+                            <img class="max-w-[135px]" src="images/android.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="max-w-[135px]" src="images/ios.png" alt="">
+                        </a>
+                    </div> -->
+                    <form action="" class="mx-auto mt-4 flex w-full max-w-md flex-col gap-3 lg:flex-row lg:gap-0">
+                        <input type="email" name="email" id="email"
+                            class="grow rounded border-2 border-gray-300 py-3 px-3 text-gray-800 focus:border-[--clr-accent] focus:outline-none lg:rounded-l-md lg:rounded-r-none lg:border-r-0"
+                            placeholder="Email Address" />
+                        <button type="submit"
+                            class="rounded bg-[--clr-accent] px-5 py-4 font-semibold text-white lg:rounded-l-none lg:rounded-r-md">Get
+                            First Email</button>
+                    </form>
+                </aside>
+                <nav class="gap-4 max-sm:place-items-center max-sm:ml-0 max-lg:ml-10">
+                    <header class="footer-title">Company</header>
+                    <a class="link link-hover">About Us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Articles</a>
+                    <a class="link link-hover">Legal Notice</a>
+
+                </nav>
+                <nav class="gap-4 max-sm:place-items-center">
+                    <header class="footer-title">Support</header>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+
+                </nav>
+                <nav class="gap-4 max-sm:col-span-2 max-sm:place-items-center max-sm:ml-0 max-lg:ml-10">
+                    <header class="footer-title">Services</header>
+                    <a class="link link-hover">Academy</a>
+                    <a class="link link-hover">Group Lesson</a>
+                    <a class="link link-hover">Private Lesson</a>
+                    <a class="link link-hover">Hockeys for Kids</a>
+                    <a class="link link-hover">Hockeys for Adults</a>
+
+                </nav>
+            </div>
+        </section>
+
+    </footer>
 
 </body>
 
