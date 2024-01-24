@@ -278,9 +278,35 @@
             </div>
         </section>
 
+        <!-- Our New Products -->
+
+        <section id="products" class="mb-24">
+            <div class="section-header">
+                <h2 class="font-normal">Our New Products</h2>
+                <p>
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin.
+                </p>
+            </div>
+        </section>
+
+        <!-- Clients Question -->
+
+        <section id="faq" class="mb-24">
+            <div class="section-header">
+                <h2 class="font-normal">Clients Question</h2>
+                <p>
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin.
+                </p>
+            </div>
+        </section>
+
         <!-- Get in Touch -->
 
-        <section id="contact">
+        <section id="contact" class="mb-24">
             <div class="section-header">
                 <h2 class="font-normal">Get In Touch</h2>
                 <p>
@@ -288,6 +314,100 @@
                     sit
                     nullam proin.
                 </p>
+            </div>
+            <div class="grid md:grid-cols-[1fr_2fr] gap-x-6 gap-y-16 ">
+                <div
+                    class=" flex flex-col gap-y-6 border border-[rgba(19,19,24,0.1)] rounded-2xl p-6 min-[1024px]:p-12">
+                    <div class="bg-[rgba(188,237,109,0.1)] rounded-2xl p-8">
+                        <img src="images/icons/call.png" alt="">
+                        <p class="font-normal opacity-50 mt-5">Phone Number :</p>
+                        <p class="font-extrabold">(+62) 123-321-543</p>
+                    </div>
+                    <div class="bg-[rgba(253,221,95,0.1)] rounded-2xl p-8">
+                        <img src="images/icons/email.png" alt="">
+                        <p class="font-normal opacity-50 mt-5">Email :</p>
+                        <p class="font-extrabold break-words max-md:hidden">info@hockeysbd.com</p>
+                        <p class="font-extrabold break-words md:hidden">info&#8203;@hockeysbd.com</p>
+                    </div>
+                    <div class="bg-[rgba(98,156,243,0.1)] rounded-2xl p-8">
+                        <img src="images/icons/location-point.png" alt="">
+                        <p class="font-normal opacity-50 mt-5">Location :</p>
+                        <p class="font-extrabold">152/1 Mohakhali Wireless Gate</p>
+                    </div>
+
+                </div>
+
+                <form class="grid lg:grid-cols-2  gap-6">
+                    <div>
+                        <label class="font-bold text-xl leading-[1]" for="name">Your Name</label>
+                        <input
+                            class="mt-3 outline-none focus:outline-1 focus:outline-[--clr-accent] w-full block bg-[rgba(19,19,24,0.03)] p-5 rounded-xl"
+                            type="text" id="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div>
+                        <label class="font-bold text-xl leading-[1]" for="email">Your Email</label>
+                        <input
+                            class="mt-3 outline-none focus:outline-1 focus:outline-[--clr-accent] w-full block bg-[rgba(19,19,24,0.03)] p-5 rounded-xl"
+                            type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div>
+                        <label class="font-bold text-xl leading-[1]" for="subject">Subject</label>
+                        <input
+                            class="mt-3 outline-none focus:outline-1 focus:outline-[--clr-accent] w-full block bg-[rgba(19,19,24,0.03)] p-5 rounded-xl"
+                            type="text" id="subject" placeholder="Enter your subject" required>
+                    </div>
+
+                    <div>
+                        <label class="font-bold text-xl leading-[1]" for="phone">Phone Number</label>
+                        <input
+                            class="mt-3 outline-none focus:outline-1 focus:outline-[--clr-accent] w-full block bg-[rgba(19,19,24,0.03)] p-5 rounded-xl"
+                            type="tel" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <div class="lg:col-span-2">
+                        <label class="font-bold text-xl leading-[1]" for="message">Message</label>
+                        <textarea
+                            class="mt-3 outline-none focus:outline-1 focus:outline-[--clr-accent] w-full block bg-[rgba(19,19,24,0.03)] p-5 rounded-xl"
+                            id="message" cols="0" rows="10" required>Write your message...
+                        </textarea>
+                        <div class=" flex items-center mt-4">
+                            <input checked id="checkbox-1" type="checkbox" class="checkbox checkbox-sm" required>
+                            <label for="checkbox-1" class="ms-2 text-sm font-medium text-gray-900">I
+                                agree to the <a href="#contact" class="text-blue-600 hover:underline">terms and
+                                    conditions</a>.</label>
+                        </div>
+                    </div>
+
+
+                    <div class="lg:col-span-2">
+                        <button
+                            class="btn w-full bg-[--clr-accent] border-0 text-white hover:bg-transparent hover:text-[--clr-accent]  outline outline-2 outline-transparent hover:outline-[--clr-accent]"
+                            type="submit">
+                            Send Message
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="bg-[rgba(19,19,24,0.03)] p-9 rounded-xl flex flex-col gap-6 items-center mt-12">
+                <p class="font-extrabold text-2xl">Social Media</p>
+                <ul class="flex flex-row gap-x-4 items-center">
+                    <li>
+                        <a href=""><img src="images/icons/1Twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icons/2facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icons/3instagram.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icons/4github.png" alt=""></a>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -304,14 +424,7 @@
                         Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit
                         nullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quam.
                     </p>
-                    <!-- <div class="grid grid-flow-col max-[375px]:grid-flow-row gap-4 cursor-pointer">
-                        <a href="#">
-                            <img class="max-w-[135px]" src="images/android.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img class="max-w-[135px]" src="images/ios.png" alt="">
-                        </a>
-                    </div> -->
+
                     <form action="" class="mx-auto mt-4 flex w-full max-w-md flex-col gap-3 lg:flex-row lg:gap-0">
                         <input type="email" name="email" id="email"
                             class="grow rounded border-2 border-gray-300 py-3 px-3 text-gray-800 focus:border-[--clr-accent] focus:outline-none lg:rounded-l-md lg:rounded-r-none lg:border-r-0"
