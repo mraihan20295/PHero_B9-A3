@@ -59,39 +59,3 @@
 #programs .card.image-full::before {
     opacity: 0.5;
 }
-
-
-/* #footer .footer {
-    grid-auto-flow: column;
-    justify-content: space-between;
-}
-
-@media screen and (max-width:920px) {
-    #footer .footer {
-        grid-auto-flow: row;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #footer .footer {
-        justify-items: center;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #footer .footer aside {
-        outline: 5px solid tomato;
-        grid-column: span 2;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #footer .footer nav:last-child {
-        outline: 5px solid tomato;
-        grid-column: span 2;
-        text-align: center;
-    }
-} */
